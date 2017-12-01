@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>Disposable Email Domains Check</Title>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>DXSdata</Authors>
+    <Company>DXSdata</Company>
+    <Description>Library for simple checks if an email or host address is listed in https://github.com/ivolo/disposable-email-domains</Description>
+    <Copyright>DXSdata / MIT</Copyright>
+    <PackageProjectUrl>http://www.dxsdata.com/2017/12/net-core-standard-2-0-library-to-check-if-email-or-host-address-is-on-disposable-email-domains-list-trash-mail ‎</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DXSdata/DisposableEmailDomainsCheck</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
